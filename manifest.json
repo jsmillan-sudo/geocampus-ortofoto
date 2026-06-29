@@ -1,0 +1,46 @@
+{
+  "project": "GeoCampus UCEVA",
+  "layer_name": "Ortofoto UCEVA",
+  "tile_scheme": "XYZ",
+  "leaflet_template": "tiles/{z}/{x}/{y}.png",
+  "format": "PNG",
+  "source_mbtiles": "Orto_UCEVA_leaflet_z17_z19.mbtiles",
+  "minzoom": 17,
+  "maxzoom": 19,
+  "bounds_wgs84": [
+    -76.20785342456206,
+    4.0605383589760695,
+    -76.19606967217447,
+    4.069913267899691
+  ],
+  "center_wgs84_zoom": [
+    -76.20196154836827,
+    4.0652258134378805,
+    19.0
+  ],
+  "attribution": "UCEVA - GeoCampus UCEVA",
+  "zoom_summary": {
+    "17": {
+      "tiles": 25,
+      "x_min": 37789,
+      "x_max": 37793,
+      "y_min": 64052,
+      "y_max": 64056
+    },
+    "18": {
+      "tiles": 72,
+      "x_min": 75579,
+      "x_max": 75587,
+      "y_min": 128105,
+      "y_max": 128112
+    },
+    "19": {
+      "tiles": 270,
+      "x_min": 151158,
+      "x_max": 151175,
+      "y_min": 256211,
+      "y_max": 256225
+    }
+  },
+  "total_tiles": 367
+}
